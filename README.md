@@ -4,7 +4,21 @@
 
 ## Description
 
-fitnessTracker is an app that creates notes from user input and save them on a server.
+fitnessTracker is an app which allows the user to add workouts to a database and view a summary of the last seven days.
+
+The app uses the database containing workout objects. Each workout object contains an array of excercises.
+
+![Image description](./Develop/public/assets/SS1.png)
+
+Clicking on either of these buttons will direct the user to the exercise creation page. An exercise may be either "cardio" or "resistance," and the app prompts the user for different information depending on the choice
+
+When all required information has been entered, the user may add a new exercise to the workout or finish and return to the home page.
+
+![Image description](./Develop/public/assets/SS2.png)
+
+By clicking on the Fitness Tracker Dashboard icon on the top of the page, the user is directed to the Stats page which displays graphs summarizing the last seven Workouts.
+
+![Image description](./Develop/public/assets/SS3.png)
 
 ## 🚀 How to Use?
 
