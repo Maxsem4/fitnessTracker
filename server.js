@@ -11,9 +11,13 @@ app.use(express.json());
 app.use(express.static("Develop/public"));
 
 mongoose
-  .connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
-    useNewUrlParser: true
-  })
+  .connect(
+    process.env.MONGODB_URI ||
+      "mongodb://user1:password1@ds141168.mlab.com:41168/heroku_6475cx1w",
+    {
+      useNewUrlParser: true
+    }
+  )
   .then(() => console.log("MongoDB successfully connected"))
   .catch(err => console.log(err));
 
