@@ -22,7 +22,7 @@ By clicking on the Fitness Tracker Dashboard icon on the top of the page, the us
 
 ## 🚀 How to Use?
 
-Click on the link ...
+Click on the link https://calm-journey-28292.herokuapp.com/
 
 ## 🤝 Contributing
 
